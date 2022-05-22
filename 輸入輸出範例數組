@@ -1,1 +1,23 @@
-123
+Input: TTTTNNTNTNTNTNTNT
+
+(000, SN, SN, SN, SN, SN, SN, SN, SN) N T  misprediction: 1
+(001, WN, SN, SN, SN, SN, SN, SN, SN) N T  misprediction: 1
+(011, WN, WN, SN, SN, SN, SN, SN, SN) N T  misprediction: 1
+(111, WN, WN, SN, WN, SN, SN, SN, SN) N T  misprediction: 1
+(111, WN, WN, SN, WN, SN, SN, SN, WN) N N  misprediction: 1
+(110, WN, WN, SN, WN, SN, SN, SN, SN) N N  misprediction: 0
+(100, WN, WN, SN, WN, SN, SN, SN, SN) N T  misprediction: 1
+(001, WN, WN, SN, WN, WN, SN, SN, SN) N N  misprediction: 1
+(010, WN, SN, SN, WN, WN, SN, SN, SN) N T  misprediction: 1
+(101, WN, SN, WN, WN, WN, SN, SN, SN) N N  misprediction: 0
+(010, WN, SN, WN, WN, WN, SN, SN, SN) N T  misprediction: 2
+(101, WN, SN, WT, WN, WN, SN, SN, SN) N N  misprediction: 0
+(010, WN, SN, WT, WN, WN, SN, SN, SN) T T  misprediction: 2
+(101, WN, SN, ST, WN, WN, SN, SN, SN) N N  misprediction: 0
+(010, WN, SN, ST, WN, WN, SN, SN, SN) T T  misprediction: 2
+(101, WN, SN, ST, WN, WN, SN, SN, SN) N N  misprediction: 0
+(010, WN, SN, ST, WN, WN, SN, SN, SN) T T  misprediction: 2
+
+C:\Users\User\Desktop\prog3\Debug\ConsoleApplication1.exe (處理序 4948) 已結束，代碼為 0。
+若要在偵錯停止時自動關閉主控台，請啟用 [工具] -> [選項] -> [偵錯] -> [在偵錯停止時自動關閉主控台]。
+按任意鍵關閉此視窗 . . .
